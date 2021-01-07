@@ -1,0 +1,20 @@
+uuid: 711955e3-d1f5-4ac6-a53d-1dc821b5b86f
+langcode: en
+status: false
+dependencies:
+  theme:
+    - outlands
+_core:
+  default_config_hash: w-d6upw9OPYM56rV28IpC2TTtjXIzNCgfXBECIjwMLI
+id: outlands_local_actions
+theme: outlands
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: fb18ce13-7329-4b50-9624-f70b3a4f9e25
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - outlands
+_core:
+  default_config_hash: bSh87nayw-Fh7x0auxPJoNHFokn1zFwX9KSyLpcH0Bg
+id: outlands_content
+theme: outlands
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

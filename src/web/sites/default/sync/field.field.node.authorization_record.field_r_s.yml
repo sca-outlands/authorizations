@@ -1,0 +1,23 @@
+uuid: d9c86a23-9ca1-49e5-bfff-b7fab1d2252e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_r_s
+    - node.type.authorization_record
+id: node.authorization_record.field_r_s
+field_name: field_r_s
+entity_type: node
+bundle: authorization_record
+label: Spear
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

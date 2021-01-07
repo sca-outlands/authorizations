@@ -1,0 +1,22 @@
+uuid: 584666f1-ecb4-4e85-95f3-ec35ae21fff9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.authorization_record
+id: node.authorization_record.promote
+field_name: promote
+entity_type: node
+bundle: authorization_record
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,31 @@
+uuid: 4e3b4ea6-6035-4926-8fae-6ba360ced7a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sca_contributor_user
+  module:
+    - system
+    - views
+  theme:
+    - outlands
+id: outlands_views_block__sca_contributor_user_block_1
+theme: outlands
+region: sidebar_second
+weight: -4
+provider: null
+plugin: 'views_block:sca_contributor_user-block_1'
+settings:
+  id: 'views_block:sca_contributor_user-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/gallery/user/*'
+    negate: false
+    context_mapping: {  }

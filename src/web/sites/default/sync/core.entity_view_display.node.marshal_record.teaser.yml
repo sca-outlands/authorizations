@@ -1,0 +1,30 @@
+uuid: adc9eb07-c12c-48c7-a99e-7387b2f74eaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.marshal_record.body
+    - node.type.marshal_record
+  module:
+    - text
+    - user
+id: node.marshal_record.teaser
+targetEntityType: node
+bundle: marshal_record
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

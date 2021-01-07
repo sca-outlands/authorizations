@@ -1,0 +1,9 @@
+uuid: 1e7205d7-8bdc-40af-b11a-a305b9ccce5b
+langcode: en
+status: true
+dependencies: {  }
+id: lesser_kingdom_marshal
+label: 'Lesser Kingdom Marshal'
+weight: -5
+is_admin: null
+permissions: {  }

@@ -1,0 +1,22 @@
+uuid: f7d94af2-3826-44ae-980a-e2702114faf4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - outlands
+_core:
+  default_config_hash: yPe8aG4-T4XsmxadKilWNIHBBZQBkV6AqEiSoijGxT8
+id: outlands_breadcrumbs
+theme: outlands
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

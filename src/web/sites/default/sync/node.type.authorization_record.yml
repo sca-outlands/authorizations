@@ -1,0 +1,17 @@
+uuid: cb842f82-5995-4f72-b44b-fc391395d0ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Authorization Record'
+type: authorization_record
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

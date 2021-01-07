@@ -1,0 +1,14 @@
+uuid: ac400e83-165f-4890-ac5c-f1c4d3bf62d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.kingdom_marshal
+  module:
+    - user
+id: user_remove_role_action.kingdom_marshal
+label: 'Remove the Kingdom Marshal role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: kingdom_marshal

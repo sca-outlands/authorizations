@@ -1,0 +1,9 @@
+uuid: 9f1a856c-0283-4bb1-a093-e27484f21372
+langcode: en
+status: true
+dependencies: {  }
+id: participant
+label: Participant
+weight: -3
+is_admin: null
+permissions: {  }

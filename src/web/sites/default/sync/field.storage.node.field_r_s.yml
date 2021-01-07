@@ -1,0 +1,18 @@
+uuid: 9d0f8ac5-0c5b-4ab4-8adb-10e11e1a9e57
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_r_s
+field_name: field_r_s
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

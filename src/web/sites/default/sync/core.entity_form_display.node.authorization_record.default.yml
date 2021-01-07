@@ -1,0 +1,182 @@
+uuid: 90c58dd7-6ab5-4df5-9d2d-c3b5ad097b86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.authorization_record.field_c_2hw
+    - field.field.node.authorization_record.field_c_s
+    - field.field.node.authorization_record.field_h_1hw
+    - field.field.node.authorization_record.field_h_2hw
+    - field.field.node.authorization_record.field_h_acm
+    - field.field.node.authorization_record.field_h_ca
+    - field.field.node.authorization_record.field_h_fs
+    - field.field.node.authorization_record.field_r_do
+    - field.field.node.authorization_record.field_r_oo
+    - field.field.node.authorization_record.field_r_s
+    - field.field.node.authorization_record.field_r_sp
+    - node.type.authorization_record
+  module:
+    - field_group
+third_party_settings:
+  field_group:
+    group_activities:
+      children:
+        - group_armored_combat
+        - group_rapier
+        - group_cu
+      parent_name: ''
+      weight: 1
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+      label: Activities
+    group_armored_combat:
+      children:
+        - field_h_1hw
+        - field_h_2hw
+        - field_h_fs
+        - field_h_ca
+        - field_h_acm
+      parent_name: group_activities
+      weight: 19
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: 'Armored Combat'
+    group_rapier:
+      children:
+        - field_r_sp
+        - field_r_do
+        - field_r_oo
+        - field_c_s
+      parent_name: group_activities
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Rapier
+    group_cu:
+      children:
+        - field_c_2hw
+        - field_r_s
+      parent_name: group_activities
+      weight: 21
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: 'Cut & Thrust'
+id: node.authorization_record.default
+targetEntityType: node
+bundle: authorization_record
+mode: default
+content:
+  field_c_2hw:
+    weight: 8
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_c_s:
+    weight: 10
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_h_1hw:
+    weight: 7
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_h_2hw:
+    weight: 8
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_h_acm:
+    weight: 11
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_h_ca:
+    weight: 10
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_h_fs:
+    weight: 9
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_r_do:
+    weight: 8
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_r_oo:
+    weight: 9
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_r_s:
+    weight: 9
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_r_sp:
+    weight: 7
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

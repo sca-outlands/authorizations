@@ -1,0 +1,14 @@
+uuid: c0df04b2-6cb5-412e-8529-0db92f093b1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.kingdom_marshal
+  module:
+    - user
+id: user_add_role_action.kingdom_marshal
+label: 'Add the Kingdom Marshal role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: kingdom_marshal

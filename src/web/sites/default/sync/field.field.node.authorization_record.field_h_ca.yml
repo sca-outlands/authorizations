@@ -1,0 +1,23 @@
+uuid: 6324675b-dec2-48c8-8339-99318b9a2733
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_h_ca
+    - node.type.authorization_record
+id: node.authorization_record.field_h_ca
+field_name: field_h_ca
+entity_type: node
+bundle: authorization_record
+label: 'Combat Archery'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

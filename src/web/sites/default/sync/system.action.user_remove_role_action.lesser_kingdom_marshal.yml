@@ -1,0 +1,14 @@
+uuid: f001fe3c-403a-4f38-850a-33c3117a214a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.lesser_kingdom_marshal
+  module:
+    - user
+id: user_remove_role_action.lesser_kingdom_marshal
+label: 'Remove the Lesser Kingdom Marshal role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: lesser_kingdom_marshal

@@ -1,0 +1,42 @@
+uuid: 6096a3a8-f3fe-410c-8c46-e60514778e09
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.authorization_record.field_c_2hw
+    - field.field.node.authorization_record.field_c_s
+    - field.field.node.authorization_record.field_h_1hw
+    - field.field.node.authorization_record.field_h_2hw
+    - field.field.node.authorization_record.field_h_acm
+    - field.field.node.authorization_record.field_h_ca
+    - field.field.node.authorization_record.field_h_fs
+    - field.field.node.authorization_record.field_r_do
+    - field.field.node.authorization_record.field_r_oo
+    - field.field.node.authorization_record.field_r_s
+    - field.field.node.authorization_record.field_r_sp
+    - node.type.authorization_record
+  module:
+    - user
+id: node.authorization_record.teaser
+targetEntityType: node
+bundle: authorization_record
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_c_2hw: true
+  field_c_s: true
+  field_h_1hw: true
+  field_h_2hw: true
+  field_h_acm: true
+  field_h_ca: true
+  field_h_fs: true
+  field_r_do: true
+  field_r_oo: true
+  field_r_s: true
+  field_r_sp: true

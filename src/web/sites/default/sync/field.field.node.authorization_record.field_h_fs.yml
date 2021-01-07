@@ -1,0 +1,23 @@
+uuid: 7692223f-89e1-4967-afe7-0584cf86fdb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_h_fs
+    - node.type.authorization_record
+id: node.authorization_record.field_h_fs
+field_name: field_h_fs
+entity_type: node
+bundle: authorization_record
+label: '2" Fiberglass Spear'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

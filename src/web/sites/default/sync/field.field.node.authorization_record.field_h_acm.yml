@@ -1,0 +1,23 @@
+uuid: 31bb903c-0c79-482d-8d74-c57cea95a603
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_h_acm
+    - node.type.authorization_record
+id: node.authorization_record.field_h_acm
+field_name: field_h_acm
+entity_type: node
+bundle: authorization_record
+label: 'Armored Combat Marshal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

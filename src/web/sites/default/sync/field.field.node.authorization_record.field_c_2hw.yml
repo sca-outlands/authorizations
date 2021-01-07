@@ -1,0 +1,23 @@
+uuid: 4b12a328-88ca-4b5c-9bf0-91b568c507cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_c_2hw
+    - node.type.authorization_record
+id: node.authorization_record.field_c_2hw
+field_name: field_c_2hw
+entity_type: node
+bundle: authorization_record
+label: '2-Handed Weapon'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,14 @@
+uuid: ed581776-7252-4cec-a01b-88f80a98aa44
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.authorizing_marshal
+  module:
+    - user
+id: user_add_role_action.authorizing_marshal
+label: 'Add the Authorizing Marshal role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: authorizing_marshal

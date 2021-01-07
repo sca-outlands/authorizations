@@ -1,0 +1,33 @@
+uuid: 050e8dfc-bb3d-45f5-8263-11fbb79aa0d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.authenticated-menu
+  module:
+    - system
+    - user
+  theme:
+    - outlands
+id: outlands_authenticatedmenu
+theme: outlands
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'system_menu_block:authenticated-menu'
+settings:
+  id: 'system_menu_block:authenticated-menu'
+  label: 'Authenticated Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

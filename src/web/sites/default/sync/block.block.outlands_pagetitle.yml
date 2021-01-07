@@ -1,0 +1,18 @@
+uuid: adb5d6ca-325e-4d4d-9538-9f6e63d16c4c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - outlands
+id: outlands_pagetitle
+theme: outlands
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

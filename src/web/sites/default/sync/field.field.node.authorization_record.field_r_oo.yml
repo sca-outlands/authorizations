@@ -1,0 +1,23 @@
+uuid: dbbf8a11-10d9-4639-96d7-8568e9b1e726
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_r_oo
+    - node.type.authorization_record
+id: node.authorization_record.field_r_oo
+field_name: field_r_oo
+entity_type: node
+bundle: authorization_record
+label: 'Offensive Offhand'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: a1a39147-b34e-4154-b3e8-2aad64c68a95
+langcode: en
+status: true
+dependencies: {  }
+id: kingdom_marshal
+label: 'Kingdom Marshal'
+weight: -6
+is_admin: null
+permissions: {  }

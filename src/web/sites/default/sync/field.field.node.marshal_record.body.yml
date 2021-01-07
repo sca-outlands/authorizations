@@ -1,0 +1,23 @@
+uuid: 0dc328ab-8f61-4669-8b44-a9a18a44e601
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.marshal_record
+  module:
+    - text
+id: node.marshal_record.body
+field_name: body
+entity_type: node
+bundle: marshal_record
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

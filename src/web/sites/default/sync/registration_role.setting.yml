@@ -1,0 +1,10 @@
+role_to_select:
+  participant: participant
+  administrator: '0'
+  officer: '0'
+  kingdom_marshal: '0'
+  lesser_kingdom_marshal: '0'
+  authorizing_marshal: '0'
+registration_mode: admin
+_core:
+  default_config_hash: o1wWkhSOJotsHFgvzESaUOiTWhLak62cKBDyEtewAIM

@@ -1,0 +1,9 @@
+uuid: 9cb24547-955d-44eb-9f63-2db28385414f
+langcode: en
+status: true
+dependencies: {  }
+id: authorizing_marshal
+label: 'Authorizing Marshal'
+weight: -4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,17 @@
+uuid: e3feda1d-ea73-4888-8272-338d92db7f4e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Marshal Record'
+type: marshal_record
+description: 'Record of participant activity authorizations'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

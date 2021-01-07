@@ -1,0 +1,14 @@
+uuid: 77e7bf0e-2411-44c0-b8f1-f43a8d952d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.authorizing_marshal
+  module:
+    - user
+id: user_remove_role_action.authorizing_marshal
+label: 'Remove the Authorizing Marshal role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: authorizing_marshal

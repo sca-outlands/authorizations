@@ -1,0 +1,22 @@
+uuid: 4ec1edca-d971-4f1b-9df3-763cf399bef7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - outlands
+_core:
+  default_config_hash: 3wV-8WzENa5lVh3Ah1PrjOzkUANvgV8XaHbux7KeAdM
+id: outlands_local_tasks
+theme: outlands
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

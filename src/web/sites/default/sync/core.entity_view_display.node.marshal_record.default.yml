@@ -1,0 +1,28 @@
+uuid: de813454-16a9-490a-a6d7-7617c26ffcd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.marshal_record.body
+    - node.type.marshal_record
+  module:
+    - text
+    - user
+id: node.marshal_record.default
+targetEntityType: node
+bundle: marshal_record
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

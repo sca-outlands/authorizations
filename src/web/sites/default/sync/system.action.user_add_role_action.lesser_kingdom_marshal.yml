@@ -1,0 +1,14 @@
+uuid: 0cddbcae-5d44-42ad-9d0a-9db3933ed9e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.lesser_kingdom_marshal
+  module:
+    - user
+id: user_add_role_action.lesser_kingdom_marshal
+label: 'Add the Lesser Kingdom Marshal role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: lesser_kingdom_marshal

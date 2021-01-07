@@ -1,0 +1,23 @@
+uuid: bba279f6-6057-492e-824c-d5f247bb824e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - outlands
+_core:
+  default_config_hash: BsbW26bDVnavqpfRuOp3gecOtsVAsF3_ATPD5E856-4
+id: outlands_search
+theme: outlands
+region: sidebar_second
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

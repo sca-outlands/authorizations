@@ -1,0 +1,23 @@
+uuid: 6178f789-03f5-45f8-bfe7-7790117d8f06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_r_sp
+    - node.type.authorization_record
+id: node.authorization_record.field_r_sp
+field_name: field_r_sp
+entity_type: node
+bundle: authorization_record
+label: 'Single Point'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
