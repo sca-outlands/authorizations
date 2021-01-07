@@ -1,4 +1,4 @@
-# Outlands Ministry of Arts and Sciences Site
+# Outlands Marshal Authorization Site
 
 ## Usage
 Install Docker.
@@ -8,22 +8,19 @@ From the root of this directory, do
 ```
 docker-compose -f docker-compose.yml up
 ```
-This sets up a full Drupal site at http://localhost:8080
+This sets up a full copy of the site at http://localhost:8080
 
 The admin user and password for the site are 'admin'.
 
 
-# Add to build:
-install vim, git
+# Run composer in the container
+```
 php -d memory_limit=2048M /usr/local/bin/composer install --prefer-dist
+```
 
 # copy updated db to container
-* download copy of db locally, replace drupal.sql in /etc/mysql
+* download copy of db locally, replace outlands_auth.sql in /etc/mysql
+```
+docker exec -i authorizations_mysql_1 mysql -uroot -p12345 outlands_auth < outlands_auth.sql
+```
 
-docker exec -i moas_mysql_1 mysql -uroot -p12345 drupal < drupal.sql
-
-Copy modules, themes in place
-
-
-php_value upload_max_filesize 10M
-php_value post_max_size 10M
